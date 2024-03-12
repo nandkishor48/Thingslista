@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-09 21:09:30.343036",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "show_distributors",
+  "mrp",
+  "select_items",
+  "scheme",
+  "final_rate",
+  "column_break_htpj",
+  "show_outlet",
+  "sr_no",
+  "retailer_rate",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "show_distributors",
+   "fieldtype": "Data",
+   "label": "Show Distributors"
+  },
+  {
+   "fieldname": "show_outlet",
+   "fieldtype": "Data",
+   "label": "Show outlet"
+  },
+  {
+   "fieldname": "sr_no",
+   "fieldtype": "Data",
+   "label": "Sr No"
+  },
+  {
+   "fieldname": "select_items",
+   "fieldtype": "Data",
+   "label": "Select Items"
+  },
+  {
+   "fieldname": "mrp",
+   "fieldtype": "Data",
+   "label": "MRP"
+  },
+  {
+   "fieldname": "retailer_rate",
+   "fieldtype": "Data",
+   "label": "Retailer Rate"
+  },
+  {
+   "fieldname": "scheme",
+   "fieldtype": "Data",
+   "label": "scheme"
+  },
+  {
+   "fieldname": "final_rate",
+   "fieldtype": "Data",
+   "label": "Final Rate"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "label": "Total"
+  },
+  {
+   "fieldname": "column_break_htpj",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-09 21:20:43.750573",
+ "modified_by": "Administrator",
+ "module": "Thingslista",
+ "name": "Outlet Order",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

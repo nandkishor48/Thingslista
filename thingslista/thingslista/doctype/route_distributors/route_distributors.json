@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-08 17:18:00.451558",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "distributors",
+  "button_waiz",
+  "route_code"
+ ],
+ "fields": [
+  {
+   "fieldname": "distributors",
+   "fieldtype": "Data",
+   "label": "Distributors"
+  },
+  {
+   "fieldname": "button_waiz",
+   "fieldtype": "Data",
+   "label": "Route Name"
+  },
+  {
+   "fieldname": "route_code",
+   "fieldtype": "Data",
+   "label": "Route Code"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-08 17:41:02.517343",
+ "modified_by": "Administrator",
+ "module": "Thingslista",
+ "name": "Route Distributors",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
